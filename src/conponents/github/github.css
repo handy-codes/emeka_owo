@@ -1,0 +1,79 @@
+.githubContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.githubTitle{
+    font-size: 100px;
+    color: #ABBECC;
+}
+
+.githubChart{
+    width: 820px;
+    text-align: center;
+    justify-items: center;
+}
+
+.dates{
+    padding: 10px;
+    color: #ABBECC;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.box{
+    width: 15px;
+    height: 15px;
+    background-color: #171c25;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 3s all ease;
+}
+
+.active:nth-child(4n){
+    background-color: #195b2c;
+}
+
+.githubChart:hover .active:nth-child(2n+1){
+    background-color: #195b2c;
+}
+
+.githubChart:hover .active:nth-child(2n){
+    /* background-color: #063f24; */
+    background-color: #065430;
+}
+
+.githubSm{
+    display: none;
+}
+
+.github{
+    background-color: #003b65;
+    height: 60px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+    border-radius: 50%;
+    }
+
+    .logo{
+        margin-top: 5px;
+    }
+
+    .align{
+        margin-left: 45%;
+        padding: 10px;
+        padding-top: 20px;
+    }
