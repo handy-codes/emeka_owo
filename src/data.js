@@ -2,7 +2,7 @@ export const products = [
     {
         id: 1,
         img: "https://i.ibb.co/TbDg3c5/mekxus-Gofull.png",
-        link: "https://mekxos-properties.onrender.com",  
+        link: "https://meksus-properties.onrender.com",  
     },
     {
         id: 2,
