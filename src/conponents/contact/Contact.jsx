@@ -4,36 +4,32 @@ import phone from "../../images/phone.png"
 import email from "../../images/email.jpeg"
 import linkedin from "../../images/linkedin_logo.png"
 import github2 from "../../images/github2.png"
-import emailjs from 'emailjs-com'
 import { ThemeContext } from '../../context'
 
 
 const Contact = () => {
 
     const formRef = useRef();
-    const [done, setDone] = useState(false)
     const theme = useContext(ThemeContext)
     const darkMode = theme.state.darkMode;
- 
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+    const onChange = (e) => {
+      setMessage(e.target.value);
+    };
+    const onChangeSubject = (e) => {
+      setSubject(e.target.value);
+    };
+    console.log(message);
+    console.log(subject);
 
-    const handleSubmit = (e) =>{
-        e.preventDefault()
-        emailjs
-      .sendForm(
-        'service_ejo31uf', 
-        'template_5vfqc34', 
-        formRef.current, {
-        publicKey: 'vGQGcgWdK3AS7pNJM'
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-          setDone(true)
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
+    const sendMail = () =>{
+    window.location = `mailto:paxymekventures@gmail.com?subject=${subject}&body=${message}`
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        sendMail();
     }
 
   return (
@@ -67,13 +63,10 @@ const Contact = () => {
                     freelancing if the right project comes along.
                 </p>
                 <form ref={formRef} onSubmit={handleSubmit}>
-                    <input style={{backgroundColor: darkMode && "#3333"}} type="text" placeholder='Name' name='user_name'  />
-                    <input style={{backgroundColor: darkMode && "#3333"}} type="text" placeholder='Subject' name='user_subject'  />
-                    <input style={{backgroundColor: darkMode && "#3333"}} type="text" placeholder='Email' name='user_email'  />
-                    <textarea style={{backgroundColor: darkMode && "#3333"}} name="message" placeholder='Message' rows="5"></textarea>
+                    <input onChange={onChangeSubject} required style={{backgroundColor: darkMode && "whitesmoke"}} type="text" placeholder='Subject' name='user_subject' value={subject} />
+                    <textarea className='textArea' onChange={onChange} required style={{backgroundColor: darkMode && "whitesmoke"}} name="message" value={message} placeholder='Message' rows="5"></textarea>
                     {/* <input type="submit" value="Send" /> */}
                     <button>Submit</button>
-                    {done && "thank you..." }
                 </form>
             </div>
         </div>
