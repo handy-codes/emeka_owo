@@ -2,7 +2,7 @@ import React, { useContext, useRef, useState } from 'react'
 import "./contact.css"
 import phone from "../../images/phone.png"
 import email from "../../images/email.jpeg"
-// import linkedin from "../../images/linkedin_logo.png"
+import linkedin from "../../images/linkedin_logo.png"
 import github2 from "../../images/github2.png"
 import emailjs from 'emailjs-com'
 import { ThemeContext } from '../../context'
@@ -51,13 +51,13 @@ const Contact = () => {
                         <img src={email} alt="email_logo" className="c-icon" />
                         paxymekventures@gmail.com
                     </div>
-                    {/* <div className="c-info-item">
+                    <div className="c-info-item">
                         <img src={linkedin} alt="linkedin_logo" className="c-icon" />
-                        <a href="https://www.linkedin.com/in/emeka-owo-932731257">https://www.linkedin.com/in/emeka-owo-932731257</a> 
-                    </div>     */}
+                        <a href="https://www.linkedin.com/in/emeka-owo-204aaa2a5">www.linkedin.com/in/emeka-owo-204aaa2a5</a> 
+                    </div>    
                     <div className="c-info-item">
                         <img src={github2} alt="github_logo" className="c-icon" />
-                        <a href="https://github.com/handy-codes">https://github.com/handy-codes</a>
+                        <a href="https://github.com/handy-codes">www.github.com/handy-codes</a>
                     </div>                  
                 </div>
             </div>
