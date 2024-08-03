@@ -4,7 +4,7 @@ import owobest from "../../images/owopos.jpg"
 
 function Intro() {
   return (
-    <div className='i'>
+    <div className='i p-4'>
      <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className='i-intro'>Hello, My name is</h2>
@@ -18,7 +18,7 @@ function Intro() {
               <div className="i-title-item">Content Creator</div>
             </div>
           </div>
-          <p className="i-desc">
+          <p className="i-desc text-sm font-semibold">
             I design and develop services for customers of all sizes,
             specializing in creating stylish, modern websites, web services
             and online stores.
