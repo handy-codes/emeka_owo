@@ -6,7 +6,7 @@ import udemy from "../../images/udemy_cert.jpg"
 
 const About = () => {
   return (
-    <div className='a p-2 mb-6'>
+    <div className='a p-2 mb-6 md:items-center md:my-[10%] lg:my-[2%]'>
         <div className="a-left">
             <div className="a-card bg"></div>
             <div className="a-card">
@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className="a-right">
             <h1 className="a-title">About Me</h1>
-            <p className="a-sub text-sm font-semibold">
+            <p className="a-sub text-[17px] font-semibold">
                 As a React developer, I find it convenient to create SPAs with React's re-usable components.
                 I am also researching React Native for developing cross-plaform mobile applications. With 
                 a background in Economics and Banking, working on Fintech products is an easy win. 

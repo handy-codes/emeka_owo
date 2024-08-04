@@ -40,22 +40,16 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 639px) {
-    .pl{
-        padding: 10px;
+@media(320px <= width <= 639px) {
+    .pl-texts h1{
+        font-size:35px;
+        padding-top:30%;
     }
-
-    .pl-texts{
-        width: 100%;
-    }
-
-    .pl-title{
-        font-size: 20px;
-        font-weight: 600;
-    }
-
-
-    /* .pl-desc{
-        display: none;
-    } */
 }
+@media(382px <= width <= 639px) {
+    .pl-texts h1{
+        font-size:35px;
+        padding-top:0%;
+    }
+}
+

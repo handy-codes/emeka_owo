@@ -7,12 +7,13 @@
     /* background-color: white; */
     bottom: none;
     position: fixed;
-    top: 10px;
+    top: 60px;
     right: 10px;
     z-index: 999;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom:50px;
 }
 
 .t-icon{
@@ -31,7 +32,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 2500px) {
 
     .t{
         width: 47px;
@@ -41,7 +42,7 @@
         /* background-color: white; */
         bottom: none;
         position: fixed;
-        top: 10px;
+        top: 5px;
         right: 10px;
         z-index: 999;
         display: flex;
@@ -50,11 +51,11 @@
     }
     
     .t-button{
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
         border-radius: 50%;
         /* background-color: #e9b92f; */
-        background-color: #1877f2;
+        background-color: #BF5800;
         position: absolute;
         cursor: pointer;
     }

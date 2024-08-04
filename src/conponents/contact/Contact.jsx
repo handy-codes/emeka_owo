@@ -40,25 +40,25 @@ const Contact = () => {
   return (
     <div className='c'>
         <div className="c-bg"></div>
-        <div className="c-wrapper">
+        <div className="c-wrapper sm:gap-5">
             <div className="c-left">
                 <h1 className="c-title">Let's discuss your project</h1>
                 <div className="c-info text-xl font-bold mr-4">
-                    <div className="c-info-item text-[17px] font-bold">
+                    <div className="c-info-item text-[17px] sm:text-[20px] font-bold hover:text-[#964e0f] hover:translate-x-1 duration-300">
                         <img src={phone} alt="phone_logo" className="c-icon rounded-full" />
                         +2349038984567
                     </div>
-                    <div className="c-info-item text-[17px] font-bold">
+                    <div className="c-info-item text-[17px] font-bold sm:text-[20px] hover:text-[#964e0f] hover:translate-x-1 duration-300">
                         <img src={email} alt="email_logo" className="c-icon rounded-full border border-blue" />
                         paxymekventures@gmail.com
                     </div>
                     <div className="c-info-item">
                         <img src={linkedin} alt="linkedin_logo" className="c-icon rounded-full border border-blue-700" />
-                        <a className='text-[17px] font-bold underline' href="https://www.linkedin.com/in/emeka-owo-204aaa2a5">www.linkedin.com/in/emeka-owo-204aaa2a5</a> 
+                        <a className='text-[17px] font-bold underline sm:text-[20px] text-blue-600 hover:text-[#964e0f] hover:translate-x-1 duration-300' href="https://www.linkedin.com/in/emeka-owo-204aaa2a5">www.linkedin.com/in/emeka-owo-204aaa2a5</a> 
                     </div>    
                     <div className="c-info-item">
                         <img src={github2} alt="github_logo" className="c-icon rounded-full" />
-                        <a className='text-[17px] font-bold underline' href="https://github.com/handy-codes">www.github.com/handy-codes</a>
+                        <a className='text-[17px] font-bold underline sm:text-[20px] text-blue-600 hover:text-[#964e0f] hover:translate-x-1 duration-300' href="https://github.com/handy-codes">www.github.com/handy-codes</a>
                     </div>                  
                 </div>
             </div>
@@ -69,9 +69,9 @@ const Contact = () => {
                 </p>
                 <form ref={formRef} onSubmit={handleSubmit}>
                     <input className='w-[100%] outline-none' onChange={onChangeSubject} required style={{backgroundColor: darkMode && "whitesmoke"}} type="text" placeholder='Subject' name='user_subject' value={subject} />
-                    <textarea className='textArea border my-3 outline-none' onChange={onChange} required style={{backgroundColor: darkMode && "whitesmoke"}} name="message" value={message} placeholder='Message' rows="5"></textarea>
+                    <textarea className='textArea border border-black my-3 outline-none' onChange={onChange} required style={{backgroundColor: darkMode && "whitesmoke"}} name="message" value={message} placeholder='Message' rows="5"></textarea>
                     {/* <input type="submit" value="Send" /> */}
-                    <button className='bg-slate-900 text-white rounded-lg p-1'>Submit</button>
+                    <button className='bg-[#0B60B0] text-white hover:opacity-90 rounded-lg p-1 w-[70%] font-bold max-w-xs mx-auto'>Submit</button>
                 </form>
             </div>
         </div>
