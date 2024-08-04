@@ -4,7 +4,7 @@ import owobest from "../../images/owopos.jpg"
 
 function Intro() {
   return (
-    <div className='i p-3'>
+    <div className='i p-2 max-w-fit mx-auto'>
      <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className='i-intro'>Hello, My name is</h2>
