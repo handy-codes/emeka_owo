@@ -26,7 +26,7 @@ function Intro() {
         </div>
      </div>
      <div className="i-right sm:max-w-2xl sm:mx-[70px]">
-      <div className="i-bg bg-[#9f5615]"></div>
+      <div className="i-bg bg-[#1D2935]"></div>
       <img src={owobest} alt="" className="i-img" />
      </div>
     </div>

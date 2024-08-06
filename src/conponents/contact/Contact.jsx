@@ -68,8 +68,8 @@ const Contact = () => {
                     freelancing if the right project comes along.
                 </p>
                 <form ref={formRef} onSubmit={handleSubmit}>
-                    <input className='w-[100%] outline-none' onChange={onChangeSubject} required style={{backgroundColor: darkMode && "whitesmoke", color:'black'}} type="text" placeholder='Subject' name='user_subject' value={subject} />
-                    <textarea className='textArea border border-black my-3 outline-none' onChange={onChange} required style={{backgroundColor: darkMode && "whitesmoke", color:'black'}} name="message" value={message} placeholder='Message' rows="5"></textarea>
+                    <input className='w-[100%] outline-none' onChange={onChangeSubject} required style={{backgroundColor: darkMode && "white", color:'black'}} type="text" placeholder='Subject' name='user_subject' value={subject} />
+                    <textarea className='textArea border border-black my-3 outline-none' onChange={onChange} required style={{backgroundColor: darkMode && "white", color:'black'}} name="message" value={message} placeholder='Message' rows="5"></textarea>
                     {/* <input type="submit" value="Send" /> */}
                     <button className='bg-[#0B60B0] text-white hover:opacity-90 rounded-lg p-1 w-[70%] font-bold max-w-xs mx-auto'>Submit</button>
                 </form>
