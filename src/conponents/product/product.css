@@ -1,5 +1,5 @@
 .p{
-    width: 90%;
+    width: 80%;
     height: 50vh;
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 639px) {
     .p{
-        width: 100%;
+        width: 90%;
         height: 50vh;
     }
 }
