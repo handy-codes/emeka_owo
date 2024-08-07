@@ -20,8 +20,8 @@ const About = () => {
             <p className="a-sub text-[17px] font-semibold">
                 As a React developer, I find it convenient to create SPAs with React's re-usable components.
                 I am also researching React Native for developing cross-plaform mobile applications. With 
-                a background in Economics and Banking, working on Fintech products is an easy win. 
-                Lead project is <a className='a-saver text-blue-900' href="https://esaver.netlify.app/">eSaver</a> - a work-in-progress which will be a convenient daily-savings app. 
+                a background in Economics and Banking, I am carving a niche in Fintech products. 
+                {/* Lead project is <a className='a-saver text-blue-900' href="https://esaver.netlify.app/">eSaver</a> - a work-in-progress which will be a convenient daily-savings app.  */}
             </p>
             <p className="a-desc text-sm font-semibold inline-block">
             <a className='text-blue-700 underline' href="https://www.udemy.com/" target="_blank" rel='noreferrer'>Udemy</a> certified, <a className='text-blue-700 underline' href="http://ude.my/UC-f0b5e41c-dc75-498d-b354-fd3fad774fc7" target="_blank" rel='noreferrer'>certificate link here</a>, I am open to Fulltime, Remote or Part-time roles depending on the employer's assessment of my current skill set.
