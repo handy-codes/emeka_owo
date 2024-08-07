@@ -23,12 +23,11 @@ const About = () => {
                 a background in Economics and Banking, working on Fintech products is an easy win. 
                 Lead project is <a className='a-saver text-blue-900' href="https://esaver.netlify.app/">eSaver</a> - a work-in-progress which will be a convenient daily-savings app. 
             </p>
-            <p className="a-desc text-sm font-semibold">
-                 Depending on the employer's assessment of my current skill set, I am open to Fulltime, Remote or Intern opportunites to learn
-                 more on the job.               
+            <p className="a-desc text-sm font-semibold inline-block">
+            <a className='text-blue-700 underline' href="https://www.udemy.com/" target="_blank" rel='noreferrer'>Udemy</a> certified, <a className='text-blue-700 underline' href="http://ude.my/UC-f0b5e41c-dc75-498d-b354-fd3fad774fc7" target="_blank" rel='noreferrer'>certificate link here</a>, I am open to Fulltime, Remote or Part-time roles depending on the employer's assessment of my current skill set.
             </p>
             <div className="a-award">
-                    <img src={udemy} alt="award" className="a-award-img" />
+                    <a href="http://ude.my/UC-f0b5e41c-dc75-498d-b354-fd3fad774fc7" target="_blank" rel='noreferrer'><img src={udemy} alt="award" className="a-award-img" /></a>
                     <div className="a-award-texts">
                         <h4 className="a-award-title">Frontend Developer</h4>
                         <p className="a-award-desc">
@@ -41,6 +40,4 @@ const About = () => {
     </div>
   )
 }
-
 export default About
-
