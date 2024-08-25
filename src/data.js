@@ -11,8 +11,8 @@ export const products = [
     },
     {    
         id: 3,
-        img: "https://i.ibb.co/GMpQqNt/screencapture-handy-codes-github-io-ui-design-test-portfolio-2024-08-03-19-55-44.png",
-        link: "https://handy-codes.github.io/ui-design-test-portfolio/",
+        img: "https://i.ibb.co/pPgX4Wm/screencapture-handy-codes-github-io-my-portfolio-new-2024-08-25-23-31-13.png",
+        link: "https://handy-codes.github.io/my-portfolio-new/",
     },
     {
         id: 4,
