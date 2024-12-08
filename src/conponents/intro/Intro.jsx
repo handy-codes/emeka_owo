@@ -13,20 +13,21 @@ function Intro() {
             <div className="i-title-wrapper flex flex-col">
               <div className="i-title-item text-center mx-auto">Web Developer</div>
               <div className="i-title-item text-center mx-auto">UI/UX Designer</div>
-              <div className="i-title-item text-center mx-auto">Mobile App Developer</div>
+              <div className="i-title-item text-center mx-auto">Web App Dev</div>
               <div className="i-title-item text-center mx-auto">Writer</div>
               <div className="i-title-item text-center mx-auto">Content Creator</div>
             </div>
           </div>
           <p className="i-desc text-[18px] font-semibold">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services
+            I design and develop digital products for clients of all sizes,
+            specializing in creating stylish, modern web applications
             and online stores.
           </p>
         </div>
      </div>
      <div className="i-right sm:max-w-2xl sm:mx-[70px]">
-      <div className="i-bg bg-[#1D2935]"></div>
+      <div className="i-bg bg-lime-950"></div>
+      {/* <div className="i-bg bg-[#1D2935]"></div> */}
       <img src={owobest} alt="" className="i-img" />
      </div>
     </div>
